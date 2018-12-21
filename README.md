@@ -44,21 +44,21 @@ Insert Video
 
 ## 1. Sign up for IBM Watson Studio
 
-Once you have created an IBM Cloud Account, navigate to [Watson Studio](https://console.bluemix.net/catalog/services/watson-studio) service and click on the `Create` button.
+Once you have created an IBM Cloud Account, navigate to [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) service and click on the `Create` button.
 
-By signing up for IBM Watson Studio, two additional services will be created - ``Spark`` and ``ObjectStore`` in your [IBM Cloud dashboard](https://console.bluemix.net/dashboard/apps).
+By signing up for IBM Watson Studio, two additional services will be created - ``Spark`` and ``ObjectStore`` in your [IBM Cloud dashboard](https://cloud.ibm.com/dashboard/apps).
 
 ### 2. Create Watson services with IBM Cloud
 
 Create the following services:
 
-* [**Watson Natural Language Understanding**](https://console.ng.bluemix.net/catalog/services/natural-language-understanding)
-* [**DB2 Warehouse**](https://console.bluemix.net/catalog/services/db2-warehouse)
-* [**Object Storage **](https://console.bluemix.net/catalog/services/cloud-object-storage)
+* [**Watson Natural Language Understanding**](https://cloud.ibm.com/catalog/services/natural-language-understanding)
+* [**DB2 Warehouse**](https://cloud.ibm.com/catalog/services/db2-warehouse)
+* [**Object Storage **](https://cloud.ibm.com/catalog/services/cloud-object-storage)
 
 ### 3. Create a Project on Watson Studio
 
-* Login to [IBM Cloud Dashboard](http://console.bluemix.net/).
+* Login to [IBM Cloud Dashboard](https://cloud.ibm.com/).
 * Click on the Watson Studio instance that was created earlier.
 * Click `Get Started` button at the bottom of the page.
 
