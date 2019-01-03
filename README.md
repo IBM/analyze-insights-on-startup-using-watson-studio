@@ -32,106 +32,36 @@ When the reader has completed this Code Pattern, they will understand how to:
 Insert Video
 
 # Steps
-
-1. [Sign up for IBM Watson Studio](#1-sign-up-for-ibm-watson-studio)
-2. [Create Watson services with IBM Cloud](#2-create-watson-services-with-ibm-cloud)
-3. [Create a Project on Watson Studio](#3-create-a-project-on-watson-studio)
-4. [Configure credentials](#5-configure-credentials)
-5. [Run the application](#6-run-the-application)
-
-## 1. Sign up for IBM Watson Studio
-
-Once you have created an IBM Cloud Account, navigate to [Watson Studio](https://console.bluemix.net/catalog/services/watson-studio) service and click on the `Create` button.
-
-By signing up for IBM Watson Studio, two additional services will be created - ``Spark`` and ``ObjectStore`` in your [IBM Cloud dashboard](https://console.bluemix.net/dashboard/apps).
-
-### 2. Create Watson services with IBM Cloud
-
-Create the following services:
-
-* [**Watson Natural Language Understanding**](https://console.ng.bluemix.net/catalog/services/natural-language-understanding)
-* [**DB2 Warehouse**](https://console.bluemix.net/catalog/services/db2-warehouse)
-* [**Object Storage **](https://console.bluemix.net/catalog/services/cloud-object-storage)
-
-### 3. Create a Project on Watson Studio
-
-* Login to [IBM Cloud Dashboard](http://console.bluemix.net/).
-* Click on the Watson Studio instance that was created earlier.
-* Click `Get Started` button at the bottom of the page.
-
-![](/doc/source/images/Get_Started_Watson_Studio.png)
-
-* Select the `New Project` option from the Watson Studio landing page and choose the `Standard` option.
-
-![](/doc/source/images/Create_Watson_Studio_Project.png)
-
-* To create a project in Watson Studio, give the project a name and select the Cloud Object Storage service created.
-
-![](/doc/source/images/Project_Name.png)
-
-* Upon a successful project creation, you are taken to a dashboard view of your project. Take note of the `Assets` and `Settings` tabs, we'll be using them to associate our project with any external assets (datasets and notebooks) and any IBM cloud services.
-
-![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/project_dashboard.png)
-
-### Create a Notebook
-
-* Click on the `Add to project` tab and select `Notebook`.
-
-![](/doc/source/images/Notebook.png)
-
-* Click on the `From URL` tab and enter the notebook url from the repo- `Insert Link`
-
-![](/doc/source/images/Notebook_url.png)
-
-* Select the free runtime.
-* Click the `create` button.
+1. [**Data Preparation**](Data_Preparation.md)
+2. [**Analyze using SPSS**](Analyze_using_SPSS.md)
+3. [**Visualize in Cognos**](Visualize_in_Cognos.md)
 
 
-### Create a Modeler
+# Sample output
 
-* Click on the `Add to project` tab and select `Modeler Flow`.
+![](doc/source/images/sample_output.png)
 
-![](/doc/source/images/Modeler_Flow.png)
+<!--Optionally, include any troubleshooting tips (driver issues, etc)-->
 
-* Navigate to the Modeler file - `Modeler/Analyze_Startup_Data.str` and download the file.
+# Troubleshooting
 
-* Navigate to `From File` tab and upload the downloaded `Analyze_Startup_Data.str` file.
+* Error: Environment {GUID} is still not active, retry once status is active
 
-![](/doc/source/images/Modeler_Flow_File.png)
+  > This is common during the first run. The app tries to start before the Discovery
+environment is fully created. Allow a minute or two to pass. The environment should
+be usable on restart. If you used `Deploy to IBM Cloud` the restart should be automatic.
 
-* Click the `create` button.
+* Error: Only one free environent is allowed per organization
 
-### Create a Dashboard
-```
-COGNOS PORTION
-```
-### 4. Configure credentials
+  > To work with a free trial, a small free Discovery environment is created. If you already have
+a Discovery environment, this will fail. If you are not using Discovery, check for an old
+service thay you may want to delete. Otherwise use the .env DISCOVERY_ENVIRONMENT_ID to tell
+the app which environment you want it to use. A collection will be created in this environment
+using the default configuration.
 
-1. [Add the Natural Language Understanding service credentials](#1-add-the-natural-language-understanding-service-ccredentials)
-2. [Add the DB2 Warehouse service credentials](#1-add-the-db2-warehouse-service-credentials)
+<!-- keep this -->
+## License
 
-#### 1. Add the Natural Language Understanding service credentials
+This code pattern is licensed under the Apache License, Version 2. Separate third-party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) and the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
-* Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/apps) and
-Once the service is open copy the `apikey` and `url` in the `Credentials` menu.
-
-* Select the cell below `2.1 Add your service credentials from IBM Natural Language Understanding service` section in the notebook to update the credentials for Watson Natural Langauage Understanding.
-
-![](doc/source/images/NLU_credentials.png)
-
-* Update the `apikey` and `url` key values in the cell below `2.1 Add your service credentials from IBM Cloud for the Watson services` section.
-
-![](doc/source/images/NLU_credentials_notebook.png)
-
-#### 2. Add the DB2 Warehouse service credentials
-
-* Open the DB2 Warehouse service in your [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/apps).
-* Click on `Service Credentials` from the options given on the left.
-
-![](doc/source/images/service_credentials_DB2.png)
-
-* Click on `View credentials` and copy the credentials.
-* In the notebook, scroll to `2.2 Add your service credentials for DB2` and paste the copied credentials in the variable `credentials_1_DB2`.
-
-![](doc/source/images/service_credentials_notebook_DB2.png)
-
+[Apache License FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
