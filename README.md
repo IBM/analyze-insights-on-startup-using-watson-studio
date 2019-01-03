@@ -1,7 +1,5 @@
 # Scrape, Analyze and Visualize insights on Startups using Watson Studio
 
-WORK IN PROGRESS
-
 This Code Pattern provides a tool that extracts live unstructured data about Startups in a particular Industry and their impact in the industry with the help of Watson Natural Language Understanding, fed into IBM SPSS Predictive Analytics to get meaningful insights and predictions, finally fed into Cognos Dashboard which provides insights and visualisation from the provided input.
 
 
@@ -38,8 +36,7 @@ Insert Video
 1. [Sign up for IBM Watson Studio](#1-sign-up-for-ibm-watson-studio)
 2. [Create Watson services with IBM Cloud](#2-create-watson-services-with-ibm-cloud)
 3. [Create a Project on Watson Studio](#3-create-a-project-on-watson-studio)
-4. [Load the Discovery documents](#4-load-the-discovery-documents)
-5. [Configure credentials](#5-configure-credentials)
+4. [Configure credentials](#5-configure-credentials)
 5. [Run the application](#6-run-the-application)
 
 ## 1. Sign up for IBM Watson Studio
@@ -76,6 +73,22 @@ Create the following services:
 
 ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/project_dashboard.png)
 
+### Create a Notebook
+
+* Click on the `Add to project` tab and select `Notebook`.
+
+![](/doc/source/images/Notebook.png)
+
+* Click on the `From URL` tab and enter the notebook url from the repo- `Insert Link`
+
+![](/doc/source/images/Notebook_url.png)
+
+* Select the free runtime.
+* Click the `create` button.
+
+
+### Create a Modeler
+
 * Click on the `Add to project` tab and select `Modeler Flow`.
 
 ![](/doc/source/images/Modeler_Flow.png)
@@ -84,6 +97,41 @@ Create the following services:
 
 * Navigate to `From File` tab and upload the downloaded `Analyze_Startup_Data.str` file.
 
+![](/doc/source/images/Modeler_Flow_File.png)
+
+* Click the `create` button.
+
+### Create a Dashboard
 ```
 COGNOS PORTION
 ```
+### 4. Configure credentials
+
+1. [Add the Natural Language Understanding service credentials](#1-add-the-natural-language-understanding-service-ccredentials)
+2. [Add the DB2 Warehouse service credentials](#1-add-the-db2-warehouse-service-credentials)
+
+#### 1. Add the Natural Language Understanding service credentials
+
+* Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/apps) and
+Once the service is open copy the `apikey` and `url` in the `Credentials` menu.
+
+* Select the cell below `2.1 Add your service credentials from IBM Natural Language Understanding service` section in the notebook to update the credentials for Watson Natural Langauage Understanding.
+
+![](doc/source/images/NLU_credentials.png)
+
+* Update the `apikey` and `url` key values in the cell below `2.1 Add your service credentials from IBM Cloud for the Watson services` section.
+
+![](doc/source/images/NLU_credentials_notebook.png)
+
+#### 2. Add the DB2 Warehouse service credentials
+
+* Open the DB2 Warehouse service in your [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/apps).
+* Click on `Service Credentials` from the options given on the left.
+
+![](doc/source/images/service_credentials_DB2.png)
+
+* Click on `View credentials` and copy the credentials.
+* In the notebook, scroll to `2.2 Add your service credentials for DB2` and paste the copied credentials in the variable `credentials_1_DB2`.
+
+![](doc/source/images/service_credentials_notebook_DB2.png)
+
