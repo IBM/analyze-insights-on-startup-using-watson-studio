@@ -12,7 +12,7 @@ Create the following services:
 * [**Watson Studio**](https://cloud.ibm.com/catalog/services/watson-studio)
 * [**Watson Natural Language Understanding**](https://cloud.ibm.com/catalog/services/natural-language-understanding)
 * [**DB2 Warehouse**](https://cloud.ibm.com/catalog/services/db2-warehouse)
-* [**Object Storage **](https://cloud.ibm.com/catalog/services/cloud-object-storage)
+* [**Object Storage**](https://cloud.ibm.com/catalog/services/cloud-object-storage)
 
 ### 2. Create a Project on Watson Studio
 
@@ -49,15 +49,15 @@ Create the following services:
 
 ### 3. Configure credentials
 
-1. [Add the Natural Language Understanding service credentials](#1-add-the-natural-language-understanding-service-ccredentials)
-2. [Add the DB2 Warehouse service credentials](#1-add-the-db2-warehouse-service-credentials)
-3. [Add the Object Storage service credentials](#1-add-the-object-storage-service-credentials)
+1. [Add the Natural Language Understanding service credentials](#1-add-the-natural-language-understanding-service-credentials)
+2. [Add the DB2 Warehouse service credentials](#2-add-the-db2-warehouse-service-credentials)
+3. [Add the Object Storage service credentials](#3-add-the-object-storage-service-credentials)
 
 #### 1. Add the Natural Language Understanding service credentials
 
 * Open the Watson Natural Language Understanding service under `Service` dropdown in your [IBM Cloud Dashboard](https://cloud.ibm.com/resources).
 * Once the service is open copy the `apikey` and `url` in the `Credentials` menu.
-* Select the cell below `2.1 Add your service credentials from IBM Natural Language Understanding service` section in the notebook to update the credentials for Watson Natural Langauage Understanding.
+* Select the cell below `2.1 Add your service credentials from IBM Natural Language Understanding service` section in the notebook to update the credentials for Watson Natural Language Understanding.
 
 ![](doc/source/images/NLU_credentials.png)
 
@@ -77,7 +77,7 @@ Create the following services:
 
 ![](doc/source/images/service_credentials_notebook_DB2.png)
 
-#### 3. Add the Object Storage Credentials
+#### 3. Add the Object Storage service credentials
 * Open Object Storage under `Storage` dropdown in your [IBM Cloud Dashboard](https://cloud.ibm.com/resources).
 * Click on `Service Credentials` from the options given on the left.
 
