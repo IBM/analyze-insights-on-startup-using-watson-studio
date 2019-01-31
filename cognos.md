@@ -3,11 +3,6 @@
 Startup analysis Dashboard provides user a complete Insights and showcases the Predicted information in the form of charts/widgets using IBM Watson Embedded Dashboard Service which hosted on Watson Studio. 
 You can build sophisticated visualizations of your analytics results, communicate the insights that you've discovered in your data on the dashboard and then share the dashboard with others.
 
-### Embedded Dashboard Analytics 
-
-
-IBM® Cognos Dashboard Embedded is a new, API-based solution that lets developers easily add end-to-end data visualization capabilities to their applications so users can create visualizations that feel like part of the app. In this pattern we have used this service to consume the derived insights(from db2 warehouse) followed by interactive dashboards which produces  visualizations directly from your data in real-time.
-
 
 #### Key Features of IBM Cognos Dashboard Embedded are as follows:
 
@@ -19,6 +14,9 @@ IBM® Cognos Dashboard Embedded is a new, API-based solution that lets developer
 - Data can be explored using filtering and navigation paths.
 - Embedded in your application
 - Because dashboards are fully embedded, dashboards are integrated into your application's context, keeping users engaged.
+
+
+In this pattern we have used this service to consume the derived insights(from db2 warehouse) followed by interactive dashboards which produces visualizations directly from your data in real-time.
 
 
 User can create and visulaize the data in the form of 4 widgets as follows:
