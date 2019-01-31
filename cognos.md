@@ -1,4 +1,4 @@
-# Startup analysis Dashboard 
+# Startup Company analysis Dashboard 
 
 Startup analysis Dashboard provides user a complete Insights and showcases the Predicted information in the form of charts/widgets using IBM Watson Embedded Dashboard Service which hosted on Watson Studio. 
 You can build sophisticated visualizations of your analytics results, communicate the insights that you've discovered in your data on the dashboard and then share the dashboard with others.
