@@ -3,21 +3,6 @@
 Startup analysis Dashboard provides user a complete Insights and showcases the Predicted information in the form of charts/widgets using IBM Watson Embedded Dashboard Service which hosted on Watson Studio. 
 You can build sophisticated visualizations of your analytics results, communicate the insights that you've discovered in your data on the dashboard and then share the dashboard with others.
 
-User can create and visulaize the data in the form of 4 widgets as follows:
-
-1. Company's Score based on Relevance
-2. Total number of articles published by a Company
-3. News Concept Relevance
-4. News Sentiment Analysis by Company
-
-
-
-## Steps to create the Dashboard widgets
-
-1. Company's Score based on Relevance
-
-
-
 ### Embedded Dashboard Analytics 
 
 
@@ -36,16 +21,26 @@ IBM® Cognos Dashboard Embedded is a new, API-based solution that lets developer
 - Because dashboards are fully embedded, dashboards are integrated into your application's context, keeping users engaged.
 
 
-### Steps to create a Dashboard
+User can create and visulaize the data in the form of 4 widgets as follows:
 
-#### (i) Provisioning a Dashboard Embedded analytics service Instance to the Watson Studio Project
+1. Company's Score based on Relevance
+2. Total number of articles published by a Company
+3. News Concept Relevance
+4. News Sentiment Analysis by Company
+
+
+
+## Steps to create the Dashboard 
+
+
+### (i) Provisioning a Dashboard Embedded analytics service Instance to the Watson Studio Project
 
 * Click on `Add to Project` button to add the Embedded Dashboard Analytics service.
 
 ![](doc/source/images/EDA_Add_to_Project.png)
 
 
-#### (ii) Creating the Embedded Dashboard service and connections
+### (ii) Creating the Embedded Dashboard service and connections
 
 *  Create the New Embedded Dashboard service or if you already have one then from the drop down prompt, select the `Dashboard Embedded service` from the list. And click on `Save` button in the bottom.
 
