@@ -40,7 +40,7 @@ User can create and visulaize the data in the form of 4 widgets as follows:
 
 ### (ii) Creating the Embedded Dashboard service and connections
 
-*  Create the New Embedded Dashboard service or if you already have one then from the drop down prompt, select the `Dashboard Embedded service` from the list. And click on `Save` button in the bottom.
+*  Create the New Embedded Dashboard service or if you already have one then from the drop down prompt, select the `Dashboard Embedded service` from the list. Give a any name for the dashboard that you want to create and click on `Save` button in the bottom.
 
 ![](doc/source/images/Select_CED_Service.png)
 
@@ -55,15 +55,15 @@ User can create and visulaize the data in the form of 4 widgets as follows:
 ![](doc/source/images/Add_source_2_Dashboard.png)
 
 
-* Connect to the DB2 Warehouse database (DASH5989). See below screenshot for details.
+* Connect to the DB2 Warehouse database (DASH100406) and then select the `Final_Data` as a data source. See below screenshot for details.
 
 ![](doc/source/images/Connection_Source.png)
 
-* After connecting to the DB2 Warehouse database, you will see `All` as a new datasource under the Selected Sources.
+* After connecting to the DB2 Warehouse database, you will see `Final_Data` as a new datasource under the Selected Sources.
 
 ![](doc/source/images/All_Data.jpg)
 
-* Click on `All` data source and now you can see the column names displayed vertically under `All`. These columns can be used for dashboard as a source. 
+* Click on `Final_Data` data source and now you can see the column names displayed vertically under `Final_Data`. These columns can be used for dashboard as a source. 
 
 ![](doc/source/images/After_Data_added.jpg)
 
