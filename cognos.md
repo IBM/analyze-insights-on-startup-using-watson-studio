@@ -16,7 +16,7 @@ You can build sophisticated visualizations of your analytics results, communicat
 - Because dashboards are fully embedded, dashboards are integrated into your application's context, keeping users engaged.
 
 
-In this pattern we have used this service to consume the derived insights(from db2 warehouse) followed by interactive dashboards which produces visualizations directly from your data in real-time.
+In this pattern we have used this service to consume the derived insights (from db2 warehouse) followed by interactive dashboards which produces visualizations directly from your data in real-time.
 
 
 User can create and visulaize the data in the form of 4 widgets as follows:
