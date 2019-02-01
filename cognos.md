@@ -22,7 +22,7 @@ In this pattern we have used this service to consume the derived insights(from d
 User can create and visulaize the data in the form of 4 widgets as follows:
 
 1. Company's Score based on Relevance
-2. Total number of articles published by a Company
+2. Total number of articles appeared in the web of a Company
 3. News Concept Relevance
 4. News Sentiment Analysis by Company
 
@@ -67,11 +67,19 @@ User can create and visulaize the data in the form of 4 widgets as follows:
 
 ![](doc/source/images/After_Data_added.jpg)
 
-#### (iii) Creating the Dashboard
+### (iii) Creating the Dashboard
+
+Following are the Four widgets that can be created:
+
+1. Company's Score based on Relevance
+2. Total number of articles appeared in web of a Company
+3. News Concept Relevance
+4. News Sentiment Analysis by Company
+
+#### 1. Company's Score based on Relevance
+This widget gives you the insights of the company's score based on the relevance score that is been predicted.
+
+* cbdvd
 
 
 
-
-
-![](https://github.com/IBM/invoke-wml-using-cognos-custom-control/blob/master/images/custom-control-API.[png)
-  
