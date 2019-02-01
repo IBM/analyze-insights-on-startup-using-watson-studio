@@ -57,7 +57,7 @@ User can create and visulaize the data in the form of 4 widgets as follows:
 
 * Connect to the DB2 Warehouse database (DASH100406) and then select the `Final_Data` as a data source. See below screenshot for details.
 
-![](doc/source/images/Connection_Source.png)
+![](doc/source/images/Connection_Source.jpg)
 
 * After connecting to the DB2 Warehouse database, you will see `Final_Data` as a new datasource under the Selected Sources.
 
