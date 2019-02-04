@@ -72,7 +72,7 @@ User can create and visulaize the data in the form of 4 widgets as follows:
 Following are the Four widgets that can be created:
 
 1. Company's Score based on Relevance
-2. Total number of articles appeared in web of a Company
+2. Total number of articles appeared in the web of a Company
 3. News Concept Relevance
 4. News Sentiment Analysis by Company
 
@@ -84,9 +84,13 @@ This widget gives you the insights of the company's score based on the relevance
 ![](doc/source/images/WC_SA.png)
 
 
-* NOw, add the data items such as `Company Name, Company Score` as per the below screen shot:
+* Now, add the data items such as `Company Name, Company Score` and again `Company name` in the color field of the chart as per the below screen shot. Then minimize the widget and adjust the widget length and width as per your requirement.
 
 ![](doc/source/images/WC1_SA.png)
 
+* Optionally, you have various changes that you can perform based on your requirements. Select the chart and click on Properties icon for any changes. See screen shot for details.
 
-* 
+![](doc/source/images/prop_SA.png)
+
+
+2. Total number of articles appeared in the web of a Company
