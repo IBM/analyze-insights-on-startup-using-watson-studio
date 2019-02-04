@@ -77,9 +77,16 @@ Following are the Four widgets that can be created:
 4. News Sentiment Analysis by Company
 
 #### 1. Company's Score based on Relevance
-This widget gives you the insights of the company's score based on the relevance score that is been predicted.
+This widget gives you the insights of the company's score based on the relevance score that is been predicted by the SPSS model.
 
-* cbdvd
+* Firstly, click on Visualizations tab and double click on the Word Cloud Chart. 
+
+![](doc/source/images/WC_SA.png)
 
 
+* NOw, add the data items such as `Company Name, Company Score` as per the below screen shot:
 
+![](doc/source/images/WC1_SA.png)
+
+
+* 
