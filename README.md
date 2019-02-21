@@ -33,13 +33,47 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 Insert Video
 
+# Prerequisites
+* [Insert Scrape Data Tutorial]
+* [Insert SPSS Tutorial]
+
 # Steps
-The code pattern is split into 3 steps:
 
-1. [**Data Preparation**](Data_Preparation.md)
-2. [**Analyze using SPSS**](Analyze_using_SPSS.md)
-3. [**Visualize in Cognos**](Visualize_in_Cognos.md)
+1. [Setup the Notebook on your Watson Studio Project](#1-setup-the-notebook-on-your-watson-studio-project)
+2. [Setup the SPSS Modeler on your Watson Studio Project](#2-setup-the-spss-modeler-on-your-watson-studio-project)
+3. [Setup the Embedded Dashboard on your Watson Studio Project](#3-setup-the-watson-embedded-dashboard-on-your-watson-studio-project)
 
+## 1. Setup the Notebook on your Watson Studio Project
+
+* Once, you have created your Waston Studio Project, click on `Add Notebook`>`From URL` and copy this URL- 
+* Ensure you have created and copied the Watson Natural Language Understanding Service as instructed in the [tutorial](https://github.com/smruthi33/Scrape_Data), and paste the service credentials in your notebook in the cell below `2.1 Add your service credentials from IBM Cloud for the Watson services` section.
+
+![](doc/source/images/NLU_credentials_notebook.png)
+
+* Ensure you have created and connected your DB2 Warehouse instance to the current Watson Studio Project as instructed in the [tutorial](https://github.com/smruthi33/-Set-up-SPSS-Modeler-on-Watson-Studio-with-DB2-Warehouse-connection.), and insert the credentials in the section `2.2 Add your service credentials for DB2`. Ensure the credentials is saved as `credentials_1`.
+
+![](doc/source/images/DB2_Warehouse_Credentials.png)
+
+* Run the notebook. 
+
+```Note: Since Data is being Scraped from the Web. Certain cells in the notebook will take some time to execute.```
+
+## 2. Setup the SPSS Modeler on your Watson Studio Project
+
+* Download the stream file from the repo- `Insert Stream link`
+* Open your Watson Studio from IBM Cloud Dashboard and Navigate to the created project.
+* Click on the `Add to Project` button and select `Modeller Flow`.
+
+![](/doc/source/images/modeller_connection.png)
+
+* Click on the `From File` tab and upload the downloaded stream file.
+
+![](/doc/source/images/upload_modeller_file.png)
+
+* Double Click on the `Data Asset` node and click on the `Change Data Asset` button.
+* Move to `Connection` tab and select the `DB2 Warehouse` and select the correct `Schema` (usually starting with DASH) and the created table- `DATA_FOR_SPSS`.
+
+![](/doc/source/images/add_DB2_Data_Asset.png)
 
 # Sample output
 
