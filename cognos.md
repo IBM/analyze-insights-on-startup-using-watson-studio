@@ -44,7 +44,7 @@ User can create and visulaize the data in the form of 4 widgets as follows:
 
 ![](doc/source/images/new_dashboard.png)
 
-* Select `From file` option to upload the dashboard file(`Starup_Analytics_Dashboard.json`) and select the dashboard service and then click on save.
+* Select `From file` option to upload the dashboard file(`./Starup_Analytics_Dashboard.json`) and select the dashboard service and then click on save.
 
 ![](doc/source/images/export_json_file.png)
 
