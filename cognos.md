@@ -40,9 +40,13 @@ User can create and visulaize the data in the form of 4 widgets as follows:
 
 ### (ii) Create a New Dashboard by importing `Starup_Analytics_Dashboard.json` file.
 
-*  Click on New Dashboard under Dashboard asset. See screenshot for details.
+*  Click on New Dashboard under Dashboard asset to create a dashboard. See screenshot for details.
 
 ![](doc/source/images/new_dashboard.png)
+
+* Select `From file` option to upload the dashboard file(`Starup_Analytics_Dashboard.json`) and select the dashboard service and then click on save.
+
+![](doc/source/images/export_json_file.png)
 
 
 * Select the Template for your Dashboard.
