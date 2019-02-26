@@ -38,7 +38,7 @@ User can create and visulaize the data in the form of 4 widgets as follows:
 ![](doc/source/images/EDA_Add_to_Project.png)
 
 
-### (ii) Create a New Dashboard by importing `Starup_Analytics_Dashboard.json` the json file.
+### (ii) Create a New Dashboard by importing `Starup_Analytics_Dashboard.json` file.
 
 *  Click on New Dashboard under Dashboard asset. See screenshot for details.
 
