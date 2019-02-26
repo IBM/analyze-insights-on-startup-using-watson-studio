@@ -38,11 +38,11 @@ User can create and visulaize the data in the form of 4 widgets as follows:
 ![](doc/source/images/EDA_Add_to_Project.png)
 
 
-### (ii) Creating the Embedded Dashboard service and connections
+### (ii) Create a New Dashboard by importing `Starup_Analytics_Dashboard.json` the json file.
 
-*  Create the New Embedded Dashboard service or if you already have one then from the drop down prompt, select the `Dashboard Embedded service` from the list. Give a any name for the dashboard that you want to create and click on `Save` button in the bottom.
+*  Click on New Dashboard under Dashboard asset. See screenshot for details.
 
-![](doc/source/images/Select_CED_Service.png)
+![](doc/source/images/new_dashboard.png)
 
 
 * Select the Template for your Dashboard.
