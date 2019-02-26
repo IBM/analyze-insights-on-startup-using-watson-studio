@@ -59,7 +59,7 @@ User can create and visulaize the data in the form of 4 widgets as follows:
 Following are the Four widgets that can be created:
 
 1. Company's Score based on Relevance
-2. Total number of articles appeared in the web of a Company
+2. Total number of Individual company's articles appeared in the web
 3. News Concept Relevance
 4. News Sentiment Analysis by Company
 
