@@ -42,14 +42,14 @@ When the reader has completed this Code Pattern, they will understand how to:
 Insert Video
 
 # Prerequisites
-* [Insert Scrape Data Tutorial]
-* [Insert SPSS Tutorial]
+* [Scrape Data Tutorial](https://github.com/smruthi33/Scrape_Data)
+* [SPSS Tutorial](https://github.com/smruthi33/-Set-up-SPSS-Modeler-on-Watson-Studio-with-DB2-Warehouse-connection.)
 
 # Steps
 
 1. [Setup the Notebook on your Watson Studio Project](#1-setup-the-notebook-on-your-watson-studio-project)
 2. [Setup the SPSS Modeler on your Watson Studio Project](#2-setup-the-spss-modeler-on-your-watson-studio-project)
-3. [Setup the Embedded Dashboard on your Watson Studio Project](#3-setup-the-watson-embedded-dashboard-on-your-watson-studio-project)
+3. [Setup the Embedded Dashboard on your Watson Studio Project](#3-setup-the-embedded-dashboard-on-your-watson-studio-project)
 
 ## 1. Setup the Notebook on your Watson Studio Project
 
