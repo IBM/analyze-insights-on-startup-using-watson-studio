@@ -127,9 +127,6 @@ After completing the setup, you will see the dashboard with 4 interactive widget
 3. News Concept Relevance: Gives a broad overview of main topics of the articles across the companies, by the percentage of its Relevance.
 4. News Sentiment Analysis by Company: Gives an overall analysis of the tone in which the article was written, to understand the impact (whether positive or negative or neutral) a given company has in the industry.
 
-```
-Note: The Company Names have been Anonymised and replaced with names of Plants. This Pattern does not wish to put down any Company, only provides a methodology to perform Analytics on any given Data from the Web.
-```
 
 # Troubleshooting
 
