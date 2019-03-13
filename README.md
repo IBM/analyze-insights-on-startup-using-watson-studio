@@ -11,7 +11,9 @@ Suppose, we want to understand the current startups in a particular technology, 
 
 This unstructured data once scraped(extract information from web) is processed through Watson NLU and converted to structured data. This is fed to SPSS, which can be used to understand the data and perform Analytics to determine if all the factors(as mentioned above) appear in a company, thereby computing a popularity score. Once, all the Analytics is performed this Code Pattern also provides a user friendly and interactive Dashboard visualisation of the data, giving insights of the data and complete ease to simplify the decision making process.
 
-
+```
+Note: The Company Names have been Anonymised and replaced with names of Plants. This Pattern does not wish to put down any Company, only provides a methodology to perform Analytics on any given Data from the Web.
+```
 
 When the reader has completed this Code Pattern, they will understand how to:
 
