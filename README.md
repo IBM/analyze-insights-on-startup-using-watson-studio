@@ -83,6 +83,12 @@ Insert Video
 
 ![](/doc/source/images/add_DB2_Data_Asset.png)
 
+* Similarly for the final node- `Data_Export` node, follow the same steps as above and select any table.
+
+* Before saving the changes for the node. Enter a name for the output table, make sure the name is unique to the table names within the schema, and make sure the value for `If the datset already exists`- `Append to Dataset`.
+
+
+
 ## 3. Setup the Embedded Dashboard on your Watson Studio Project 
 
 * Click on `Add to Project` button to add the Embedded Dashboard Analytics service.
