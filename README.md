@@ -85,9 +85,9 @@ Insert Video
 
 ![](/doc/source/images/add_DB2_Data_Asset.png)
 
-* Similarly for the final node- `Data_Export` node, follow the same steps as above and select any table.
+* Similarly for the final node- `Data_Export` node, follow the same steps as above and select `DATA_FOR_COGNOS` table.
 
-* Before saving the changes for the node. Enter a name for the output table, make sure the name is unique to the table names within the schema, and make sure the value for `If the datset already exists`- `Append to Dataset`.
+* Before saving the changes for the node, make sure the value for `If the datset already exists`- `Append Output to Dataset`.
 
 
 
