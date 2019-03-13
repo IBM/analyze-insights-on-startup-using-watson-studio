@@ -55,7 +55,7 @@ Insert Video
 
 ## 1. Setup the Notebook on your Watson Studio Project
 
-* Once, you have created your Waston Studio Project, click on `Add Notebook`>`From URL` and copy this URL- 
+* Once, you have created your Waston Studio Project, click on `Add Notebook`>`From URL` and copy this URL- https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/master/code/Scrape_Startup_Insights.ipynb
 * Ensure you have created and copied the Watson Natural Language Understanding Service as instructed in the [tutorial](https://github.com/smruthi33/Scrape_Data), and paste the service credentials in your notebook in the cell below `2.1 Add your service credentials from IBM Cloud for the Watson services` section.
 
 ![](doc/source/images/NLU_credentials_notebook.png)
@@ -70,7 +70,7 @@ Insert Video
 
 ## 2. Setup the SPSS Modeler on your Watson Studio Project
 
-* Download the stream file from the repo- `Insert Stream link`
+* Download the stream file from the repo- https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/master/code/Analyze_Startup_Data.str
 * Open your Watson Studio from IBM Cloud Dashboard and Navigate to the created project.
 * Click on the `Add to Project` button and select `Modeller Flow`.
 
