@@ -110,24 +110,38 @@ Note: Save this name as it will be needed for later reference.
 
 ## 3. Setup the Embedded Dashboard on your Watson Studio Project 
 
-* Click on `Add to Project` button to add the Embedded Dashboard Analytics service.
+* Download the [file](https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/master/code/Starup_Analytics_Dashboard.json), and open it in any Text Editor.
+ 1. Search for the term DASH(schema name) and replace any occurrences of it with your db2 Warehouse schema name `DASHXXXX`
+ 
+  ![](/doc/source/images/json_change.jpg)
+ 
+ 2. Search for the term DATA_FOR_COGNOS_2(table name) and replace any occurrences of it with your db2 Warehouse table name `COGNOS_Table_Name_XXXX`
+
+  ![](/doc/source/images/json_change_1.jpg)
+
+* Go to your Watson Studio Project and click on `Add to Project` button to add the Embedded Dashboard Analytics service.
 
 ![](doc/source/images/EDA_Add_to_Project.png)
 
-*  Click on New Dashboard under Dashboard asset to create a dashboard. See screenshot for details.
-
-![](doc/source/images/new_dashboard.png)
-
-* Download the [file](https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/master/code/Starup_Analytics_Dashboard.json), and open it in any Text Editor.
-* Search for the term DASH and replace any occurence with your `DASHXXXX.Table_Name`.
-
-![](/doc/source/images/json_change.jpg)
-
-![](/doc/source/images/json_change_1.jpg)
-
-* Select `From file` option to upload the modified .json file and select the dashboard service and then click on save.
+* Select `From file` option to upload the `modified .json` file and select the dashboard service and then click on save.
 
 ![](doc/source/images/export_json_file.png)
+
+If you don't have the `Cognos Dashboard Embedded Service` instance-
+
+* Click on `Associate a Cognos Dashboard Embedded Service Instance`.
+
+![](doc/source/images/new_cognos_instance.png)
+
+* Select `Lite` or `Pay-as-you-go` plan as per your requirement and click on `Create`. 
+
+![](doc/source/images/cognos_setup.png)
+
+* Click on `Reload` and then `Create` button.
+* While opening the Dashboard you may receive this pop-up. Click on the `Re-link` button.
+
+
+![](/doc/source/images/Cognos_error.jpg)
 
 
 # Sample output
