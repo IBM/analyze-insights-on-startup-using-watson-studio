@@ -105,11 +105,11 @@ Insert Video
 ## 3. Setup the Embedded Dashboard on your Watson Studio Project 
 
 * Download the [file](https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/master/code/Starup_Analytics_Dashboard.json), and open it in any Text Editor.
- 1. Search for the term DASH(schema name) and replace any occurrences of it with your db2 Warehouse schema name `DASHXXXX`
+ 1. Search for the term `DASH_SCHEMA_NAME` and replace any occurrences of it with your db2 Warehouse schema name. 
  
   ![](/doc/source/images/json_change_1.jpg)
  
- 2. If you have changed the Table name from `DATA_FROM_COGNOS`- search for the term DATA_FOR_COGNOS(table name) and replace any occurrences of it with your db2 Warehouse table name.
+ 2. If you have changed the Table name from `DATA_FROM_COGNOS`- search for the term `DATA_FOR_COGNOS` and replace any occurrences of it with your db2 Warehouse table name.
 
   ![](/doc/source/images/json_change.jpg)
 
