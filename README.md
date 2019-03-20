@@ -117,7 +117,7 @@ Insert Video
 
 ![](/doc/source/images/json_change_1.jpg)
 
-* Select `From file` option to upload the dashboard file(`./code/Starup_Analytics_Dashboard.json`) and select the dashboard service and then click on save.
+* Select `From file` option to upload the modified .json file and select the dashboard service and then click on save.
 
 ![](doc/source/images/export_json_file.png)
 
