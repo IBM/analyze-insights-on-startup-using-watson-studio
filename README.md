@@ -38,7 +38,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 3. The Scraped Information is sent to Watson Natural Language Understanding to extract Keywords, Entities, Sentiments and its respective confidence scores.
 4. The Results of NLU are compiled into a csv file which is further converted to a table in DB2 Warehouse.
 5. The table created is ingested in SPSS to do some analytics and return a score against each company. The updated table is then saved back to DB2 Warehouse.
-6. Finally, Cognos ingests, the final table generated in DB2 Warehouse giving insightful visualisation.
+6. Finally, the table generated in DB2 Warehouse is fed to the Dashboard, giving insightful visualisation.
 
 <!--Optionally, update this section when the video is created-->
 # Watch the Video
