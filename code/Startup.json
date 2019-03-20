@@ -1,0 +1,774 @@
+{
+  "name": "New dashboard",
+  "layout": {
+    "id": "page0",
+    "css": "fill-transparent",
+    "items": [
+      {
+        "id": "page1",
+        "items": [
+          {
+            "id": "page2",
+            "css": "templateBox aspectRatio_default",
+            "items": [
+              {
+                "id": "page3",
+                "style": {
+                  "top": "0%",
+                  "left": "0%",
+                  "right": "0%",
+                  "bottom": "0%"
+                },
+                "type": "templateDropZone",
+                "relatedLayouts": "|model000001689e974742_00000000|"
+              },
+              {
+                "id": "model000001689e974742_00000000",
+                "style": {
+                  "width": "99.8%",
+                  "height": "99.75757575757575%",
+                  "top": "0.12121212121212122%",
+                  "left": "0%"
+                },
+                "type": "widget",
+                "relatedLayouts": "page3"
+              },
+              {
+                "id": "model000001689e853b84_00000000",
+                "style": {
+                  "top": "62.06060606060606%",
+                  "left": "41.333333333333336%",
+                  "height": "58.303030303030305%",
+                  "width": "60.06666666666667%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model000001689e4a1323_00000000",
+                "style": {
+                  "top": "10.06060606060606%",
+                  "left": "41.4%",
+                  "height": "52.36363636363637%",
+                  "width": "59.93333333333333%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model000001689e3a36c3_00000000",
+                "style": {
+                  "top": "10.06060606060606%",
+                  "left": "0.06666666666666667%",
+                  "height": "52.484848484848484%",
+                  "width": "41.06666666666667%",
+                  "opacity": 1
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model000001689e974cc9_00000000",
+                "style": {
+                  "width": "98.2%",
+                  "height": "9.212121212121213%",
+                  "left": "0.3333333333333333%",
+                  "top": "0.8484848484848485%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model00000168a30b905a_00000000",
+                "style": {
+                  "left": "0.06666666666666667%",
+                  "top": "62.54545454545455%",
+                  "height": "57.09090909090909%",
+                  "width": "41.06666666666667%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              }
+            ],
+            "type": "scalingAbsolute"
+          }
+        ],
+        "type": "container",
+        "title": {
+          "translationTable": {
+            "Default": "Dashboard"
+          }
+        },
+        "templateName": "Template1"
+      }
+    ],
+    "style": {
+      "height": "100%"
+    },
+    "type": "tab",
+    "fillColor": "transparent"
+  },
+  "theme": "darkTheme",
+  "version": 1009,
+  "eventGroups": [
+    {
+      "id": "page1:1",
+      "widgetIds": [
+        "model000001689e3a36c3_00000000",
+        "model000001689e4a1323_00000000",
+        "model000001689e853b84_00000000",
+        "model00000168a30b905a_00000000"
+      ]
+    }
+  ],
+  "properties": {
+    "defaultLocale": "Default"
+  },
+  "pageContext": [],
+  "dataSources": {
+    "version": "1.0",
+    "sources": [
+      {
+        "id": "model000001689e3958b9_00000000",
+        "assetId": "assetId000001689e3958b8_00000000",
+        "clientId": "2e0bac82-fa3f-4bde-bbbe-627390dbc6d3:19d6deae-05d0-463f-ab0b-33bd9fb548b8:/DASHXXXX/DATA_FOR_COGNOS:table:DATA_FOR_COGNOS",
+        "module": {
+          "xsd": "https://ibm.com/daas/module/1.0/module.xsd",
+          "source": {
+            "id": "2e0bac82-fa3f-4bde-bbbe-627390dbc6d3:19d6deae-05d0-463f-ab0b-33bd9fb548b8:/DASHXXXX/DATA_FOR_COGNOS:table:DATA_FOR_COGNOS",
+            "user": "{enc}SBQxm23U6T6Wl9+VkdRdlkBkasCIwMBiZjeLa9KHJiztAHoEG+bPOwbXPm01EwkxjZoYoM7J332Z6P729GlDYlD90nWBFJMBa4Q4RaFHe91Mm8emM856o6gAo6QyfJ/gNw/VmS9HkIhpQrcgbCCBELCWjYTWWKJnHXCs+G8U7GfBzxEcUUbH2ONf3G26AOabAMYJw8lFDEMCICuEsXGaOUO5j1K7UQLlAKoSQ6DxPERE2xZJButTL3Nlrryk3Inz1hib3NSn4jnIbBIbOHrDQ7Q0YKkcYEj3dd+pNLlFzg2UMSMFwxgjzvfCirM2y2AnXvGlDP5ancea7tuvuqAI8A==",
+            "password": "{enc}iv23UpbvceVlB64DGl0Ljv2qRW5VVDD+CSQujoEGaL1gc/7kPAe4KtLrR45tcoTo0qf2VtRiWoqrv7YSpfDXTYekzXjdEg3EBrbK/FEEUOdKhd8lQI0V/KVHyLkI2XikBppogmDgTvyJRc0/pSrj9AEku17E3g3FCGfi2Md037XSp4aADjHUK4YPB3qgfqLtndml3dq6/mDWvd09rVPUCPbQ4NSQ0oBqd3d5uhhfgb2kEhuK5hmREBTQqcchbXOGKI+126ANKrlBRQSfznm2Vtso4iNEax9wiQ1SYjx8ZSARrQ/UlpCu9vpunhdg6wPHsmoofVZjYCM9YupGjDCSTA==",
+            "jdbc": {
+              "jdbcUrl": "{enc}f40csEFEDoPH4ZRsBtIbs+Y1oTkCjlQA67xuX/BxK45r3JYrdtaA1oqTVYzx4Wa9VcgZMRCvCEgTm0TiWjTM3lzptWZZ6pSZYz0q9q2he5ldxuJS1alEWhYTUh+5Ow8jeqaJfoLM509p2+VTraCVZid3qLPMMJRGazdZCqN+a/8mn4BtmdPbo61sZ6y8AM3ZTOj/oCF1KolvXBT8JJ3y+AkRueD7b3l3D0qqhBUJAMZpWbvVeKnXxf9QDes9gEb/kbORQDZN3tJ+52Rf/d9u8h75dKS4MLSiM5Az3yTdgKYQGPfdjC+jdCBwoSOTV8wHg++Opt2kqY7R+XPzPMPl5w==",
+              "driverClassName": "com.ibm.db2.jcc.DB2Driver",
+              "schema": "{enc}DuOdZDs+kt2OnCQqcvP+Ngw2p2SNB2r+cIf1PyamXEb4rNCv3R98PhtR3vuM2PKVMPNmMDxmgjEzd7HSE5uAnl4mdWqsaOO7oVxZBqNJE5aP91/qG1mXya0dxdoxjahSq34zsDEDXl7GSZlLkgDeXI9VapdsydcDnCpaAqRhRQdLpSbvOIV44yc6XGlpKp7qk9+Xhgmtwt6phVWYqTg8q7c1QgyYyzGM/1bOLwRgjV4k9FupUIsiQOsDy95d2zHyGYaYRexRgd3Ao1VoUcmbFK/q2Ergc8gldnuANxRXFi1FksZgEhpXk8+f7PGaASjntrC3VhJHdj9E06sIiLCGQA=="
+            }
+          },
+          "label": "DATA_FOR_COGNOS",
+          "identifier": "DATA_FOR_COGNOS",
+          "table": {
+            "column": [
+              {
+                "datatype": "smallint",
+                "nullable": true,
+                "name": "Column_0",
+                "label": "Column_0",
+                "usage": "fact",
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "varchar(10)",
+                "nullable": true,
+                "name": "Company_Name",
+                "label": "Company_Name",
+                "usage": "attribute",
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "decimal(20)",
+                "nullable": true,
+                "name": "Confidence",
+                "label": "Confidence",
+                "usage": "attribute",
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "varchar(20)",
+                "nullable": true,
+                "name": "News_Concept",
+                "label": "News_Concept",
+                "usage": "attribute",
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "varchar(413)",
+                "nullable": true,
+                "name": "News_Link",
+                "label": "News_Link",
+                "usage": "attribute",
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "decimal(20)",
+                "nullable": true,
+                "name": "News_Relevance",
+                "label": "News_Relevance",
+                "usage": "fact",
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "varchar(8)",
+                "nullable": true,
+                "name": "Overall_Sentiment",
+                "label": "Overall_Sentiment",
+                "usage": "attribute",
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "varchar(18)",
+                "nullable": true,
+                "name": "Twitter_Topic",
+                "label": "Twitter_Topic",
+                "usage": "attribute",
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "varchar(277)",
+                "nullable": true,
+                "name": "Twitter_news_link",
+                "label": "Twitter_news_link",
+                "usage": "attribute",
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "varchar(12)",
+                "nullable": true,
+                "name": "Wiki_Concept",
+                "label": "Wiki_Concept",
+                "usage": "attribute",
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "decimal(20)",
+                "nullable": true,
+                "name": "Wiki_Confidence",
+                "label": "Wiki_Confidence",
+                "usage": "attribute",
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "varchar(37)",
+                "nullable": true,
+                "name": "Technology",
+                "label": "Technology",
+                "usage": "attribute",
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "decimal(20)",
+                "nullable": true,
+                "name": "Technology_Relevance",
+                "label": "Technology_Relevance",
+                "usage": "fact",
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "smallint",
+                "nullable": true,
+                "name": "Company_News_Sentiments",
+                "label": "Company_News_Sentiments",
+                "usage": "fact",
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone"
+              },
+              {
+                "datatype": "decimal(20)",
+                "nullable": true,
+                "name": "Company_Score",
+                "label": "Company_Score",
+                "usage": "fact",
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone"
+              }
+            ],
+            "name": "DATA_FOR_COGNOS",
+            "label": "DATA_FOR_COGNOS",
+            "description": ""
+          }
+        },
+        "name": "DATA_FOR_COGNOS",
+        "shaping": {
+          "shapingId": "shaping00000168a34719f6_00000000",
+          "embeddedModuleUpToDate": false,
+          "moserJSON": {
+            "version": "5.0.1",
+            "container": "C",
+            "useSpec": [
+              {
+                "identifier": "ES",
+                "type": "url",
+                "storeID": "baseModule",
+                "imports": "*"
+              }
+            ],
+            "expressionLocale": "en-us",
+            "calculation": [
+              {
+                "expression": "count( DATA_FOR_COGNOS.Company_Name )",
+                "usage": "fact",
+                "datatype": "LONG",
+                "nullable": true,
+                "regularAggregate": "calculated",
+                "datatypeCategory": "number",
+                "highlevelDatatype": "integer",
+                "facetDefinition": {
+                  "enabled": "automatic"
+                },
+                "identifier": "Company_Count",
+                "label": "Company Count",
+                "property": [
+                  {
+                    "name": "ui_expr",
+                    "value": "{\"func\":\"customCalculation\",\"version\":\"5.0.1\"}"
+                  }
+                ],
+                "propertyOverride": [
+                  "NEW"
+                ]
+              },
+              {
+                "expression": "maximum(DATA_FOR_COGNOS.Company_Score)*100",
+                "usage": "fact",
+                "datatype": "DOUBLE",
+                "nullable": true,
+                "regularAggregate": "calculated",
+                "datatypeCategory": "number",
+                "highlevelDatatype": "decimal",
+                "facetDefinition": {
+                  "enabled": "automatic"
+                },
+                "identifier": "Company_Score_Percentage",
+                "label": "Company Score Percentage",
+                "property": [
+                  {
+                    "name": "ui_expr",
+                    "value": "{\"func\":\"customCalculation\",\"version\":\"5.0.1\"}"
+                  }
+                ],
+                "propertyOverride": [
+                  "NEW"
+                ]
+              }
+            ],
+            "metadataTreeView": [
+              {
+                "folderItem": [
+                  {
+                    "ref": "Company_Count"
+                  },
+                  {
+                    "ref": "Company_Score_Percentage"
+                  }
+                ]
+              }
+            ],
+            "dataRetrievalMode": "liveConnection",
+            "identifier": "newModel",
+            "label": "newModel"
+          }
+        }
+      }
+    ]
+  },
+  "drillThrough": [],
+  "widgets": {
+    "model000001689e3a36c3_00000000": {
+      "id": "model000001689e3a36c3_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model000001689e3958b9_00000000",
+            "dataItems": [
+              {
+                "id": "model000001689e3a8227_00000002",
+                "itemId": "DATA_FOR_COGNOS.Company_Name",
+                "itemLabel": "Company_Name"
+              },
+              {
+                "id": "model000001689e3aaf6d_00000001",
+                "itemId": "DATA_FOR_COGNOS.Company_Name",
+                "itemLabel": "Company_Name"
+              },
+              {
+                "id": "model00000168a343a9a0_00000000",
+                "itemId": "Company_Score_Percentage",
+                "itemLabel": "Company Score Percentage"
+              }
+            ],
+            "id": "model000001689e3a8227_00000001"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model000001689e3a8227_00000002"
+            ],
+            "dataItemSettings": [],
+            "caption": "Words",
+            "id": "categories"
+          },
+          {
+            "name": "size",
+            "dataItems": [
+              "model00000168a343a9a0_00000000"
+            ],
+            "caption": "Size",
+            "id": "size"
+          },
+          {
+            "name": "color",
+            "dataItems": [
+              "model000001689e3aaf6d_00000001"
+            ],
+            "caption": "Color",
+            "id": "color"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2bundlewordcloud",
+      "name": {
+        "translationTable": {
+          "Default": "Company's Score based on Relevance"
+        }
+      },
+      "properties": [
+        {
+          "id": "widget.legend.display",
+          "value": false
+        },
+        {
+          "id": "colorPalette",
+          "value": "colorPalette4"
+        },
+        {
+          "id": "contColorPalette",
+          "value": "colorPalette4"
+        },
+        {
+          "id": "heatScalePalette",
+          "value": "DarkerForHigherValue"
+        }
+      ],
+      "showTitle": true,
+      "localFilters": []
+    },
+    "model000001689e4a1323_00000000": {
+      "id": "model000001689e4a1323_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model000001689e3958b9_00000000",
+            "dataItems": [
+              {
+                "id": "model000001689e6043b2_00000002",
+                "itemId": "DATA_FOR_COGNOS.Company_Name",
+                "itemLabel": "Company_Name"
+              },
+              {
+                "id": "model000001689e604eb6_00000001",
+                "itemId": "Company_Count",
+                "itemLabel": "Company Count"
+              },
+              {
+                "id": "model000001689e60639e_00000000",
+                "itemId": "DATA_FOR_COGNOS.Company_Name",
+                "itemLabel": "Company_Name"
+              }
+            ],
+            "id": "model000001689e6043b2_00000001"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model000001689e6043b2_00000002"
+            ],
+            "dataItemSettings": [],
+            "caption": "Bars",
+            "id": "categories"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model000001689e604eb6_00000001"
+            ],
+            "caption": "Length",
+            "id": "values"
+          },
+          {
+            "name": "color",
+            "dataItems": [
+              "model000001689e60639e_00000000"
+            ],
+            "caption": "Color",
+            "id": "color"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2bundlebar",
+      "name": {
+        "translationTable": {
+          "Default": "Total # of articles appeared in the web of a Company"
+        }
+      },
+      "showTitle": true,
+      "properties": [
+        {
+          "id": "itemAxis.labels.visible",
+          "value": false
+        },
+        {
+          "id": "valueAxis.labels.visible",
+          "value": false
+        },
+        {
+          "id": "valueLabels.visible",
+          "value": true
+        },
+        {
+          "id": "widget.legend.display",
+          "value": false
+        },
+        {
+          "id": "colorPalette",
+          "value": "colorPalette5"
+        }
+      ],
+      "localFilters": []
+    },
+    "model000001689e853b84_00000000": {
+      "id": "model000001689e853b84_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model000001689e3958b9_00000000",
+            "dataItems": [
+              {
+                "id": "model000001689e85cee3_00000000",
+                "itemId": "DATA_FOR_COGNOS.Company_Name",
+                "itemLabel": "Company_Name"
+              },
+              {
+                "id": "model000001689e87e592_00000001",
+                "itemId": "DATA_FOR_COGNOS.Overall_Sentiment",
+                "itemLabel": "Overall_Sentiment"
+              },
+              {
+                "id": "model000001689e896a27_00000000",
+                "itemId": "DATA_FOR_COGNOS.Overall_Sentiment",
+                "itemLabel": "Overall_Sentiment"
+              }
+            ],
+            "id": "model000001689e85a401_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model000001689e85cee3_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Bars",
+            "id": "categories",
+            "layerId": "data"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model000001689e87e592_00000001"
+            ],
+            "caption": "Length",
+            "id": "values",
+            "layerId": "data"
+          },
+          {
+            "name": "color",
+            "dataItems": [
+              "model000001689e896a27_00000000"
+            ],
+            "caption": "Color",
+            "id": "color",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2bundlecolumn",
+      "name": {
+        "translationTable": {
+          "Default": "Sentiment Analysis by Company"
+        }
+      },
+      "localFilters": [
+        {
+          "id": "DATA_FOR_COGNOS.Overall_Sentiment",
+          "columnId": "DATA_FOR_COGNOS.Overall_Sentiment",
+          "values": [
+            {
+              "d": "NAN",
+              "u": "DATA_FOR_COGNOS.Overall_Sentiment->[NAN]"
+            }
+          ],
+          "operator": "notin",
+          "type": null
+        }
+      ],
+      "showTitle": true,
+      "properties": [
+        {
+          "id": "widget.legend.display",
+          "value": true
+        },
+        {
+          "id": "colorPalette",
+          "value": "colorPalette4"
+        },
+        {
+          "id": "contColorPalette",
+          "value": "colorPalette5"
+        },
+        {
+          "id": "heatScalePalette",
+          "value": "DarkerForHigherValue"
+        }
+      ]
+    },
+    "model000001689e974742_00000000": {
+      "id": "model000001689e974742_00000000",
+      "type": "text",
+      "content": {
+        "translationTable": {
+          "Default": "<div class=\"staticContent textFillNoScroll\" dir=\"auto\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\"><p class=\"responsiveColor responsiveFontSize responsiveFontFamily\" style=\"font-size: 697px;\"><br></p></div></div></div></div>"
+        }
+      },
+      "isResponsive": true,
+      "visTypeLocked": true,
+      "name": ""
+    },
+    "model000001689e974cc9_00000000": {
+      "id": "model000001689e974cc9_00000000",
+      "type": "text",
+      "content": {
+        "translationTable": {
+          "Default": "<div class=\"staticContent textFillNoScroll\" dir=\"auto\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\"><p class=\"responsiveColor responsiveFontSize responsiveFontFamily\" style=\"font-size: 47px; text-align: center;\">Dashboard for Startup company's Analysis using IBM Watson Studio</p></div></div></div></div>"
+        }
+      },
+      "isResponsive": true,
+      "visTypeLocked": true,
+      "name": ""
+    },
+    "model00000168a30b905a_00000000": {
+      "id": "model00000168a30b905a_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model000001689e3958b9_00000000",
+            "dataItems": [
+              {
+                "id": "model00000168a30ba4f5_00000001",
+                "itemId": "DATA_FOR_COGNOS.News_Concept",
+                "itemLabel": "News_Concept"
+              },
+              {
+                "id": "model00000168a30bb0e0_00000001",
+                "itemId": "DATA_FOR_COGNOS.News_Relevance",
+                "itemLabel": "News_Relevance",
+                "aggregate": "min"
+              },
+              {
+                "id": "model00000168a30bbd5b_00000000",
+                "itemId": "DATA_FOR_COGNOS.News_Concept",
+                "itemLabel": "News_Concept"
+              }
+            ],
+            "id": "model00000168a30ba4f5_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model00000168a30ba4f5_00000001"
+            ],
+            "dataItemSettings": [],
+            "caption": "Bars",
+            "id": "categories"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model00000168a30bb0e0_00000001"
+            ],
+            "caption": "Length",
+            "id": "values"
+          },
+          {
+            "name": "color",
+            "dataItems": [
+              "model00000168a30bbd5b_00000000"
+            ],
+            "caption": "Color",
+            "id": "color"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2bundlecolumn",
+      "name": {
+        "translationTable": {
+          "Default": "News Concept Relevance"
+        }
+      },
+      "localFilters": [
+        {
+          "id": "DATA_FOR_COGNOS.News_Concept",
+          "columnId": "DATA_FOR_COGNOS.News_Concept",
+          "values": [
+            {
+              "d": "NAN",
+              "u": "DATA_FOR_COGNOS.News_Concept->[NAN]"
+            }
+          ],
+          "excludedValues": [],
+          "operator": "notin",
+          "type": null
+        }
+      ],
+      "showTitle": true,
+      "properties": [
+        {
+          "id": "itemAxis.labels.visible",
+          "value": false
+        },
+        {
+          "id": "titles.visible",
+          "value": false
+        },
+        {
+          "id": "widget.legend.display",
+          "value": false
+        }
+      ]
+    }
+  }
+}
