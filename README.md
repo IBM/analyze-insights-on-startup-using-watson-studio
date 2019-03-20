@@ -107,11 +107,11 @@ Insert Video
 * Download the [file](https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/master/code/Starup_Analytics_Dashboard.json), and open it in any Text Editor.
  1. Search for the term DASH(schema name) and replace any occurrences of it with your db2 Warehouse schema name `DASHXXXX`
  
-  ![](/doc/source/images/json_change.png)
+  ![](/doc/source/images/json_change_1.jpg)
  
  2. If you have changed the Table name from `DATA_FROM_COGNOS`- search for the term DATA_FOR_COGNOS(table name) and replace any occurrences of it with your db2 Warehouse table name.
 
-  ![](/doc/source/images/json_change_1.png)
+  ![](/doc/source/images/json_change.jpg)
 
 * Go to your Watson Studio Project and click on `Add to Project` button to add the Embedded Dashboard Analytics service.
 
