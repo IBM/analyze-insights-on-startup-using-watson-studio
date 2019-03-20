@@ -115,7 +115,7 @@ Note: Save this name as it will be needed for later reference.
  
   ![](/doc/source/images/json_change.jpg)
  
- 2. Search for the term DATA_FOR_COGNOS_2(table name) and replace any occurrences of it with your db2 Warehouse table name `COGNOS_Table_Name_XXXX`
+ 2. Search for the term DATA_FOR_COGNOS(table name) and replace any occurrences of it with your db2 Warehouse table name `COGNOS_Table_Name_XXXX`
 
   ![](/doc/source/images/json_change_1.jpg)
 
