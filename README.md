@@ -44,8 +44,8 @@ When the reader has completed this Code Pattern, they will understand how to:
 Insert Video
 
 # Prerequisites
-* [Scrape Data Tutorial](https://github.com/smruthi33/Scrape_Data)
-* [SPSS Tutorial](https://github.com/smruthi33/-Set-up-SPSS-Modeler-on-Watson-Studio-with-DB2-Warehouse-connection.)
+* [Scrape data from the web using Python and AI](https://developer.ibm.com/tutorials/scrape-data-from-the-web-using-watson-studio/)
+* [Predictive analytics using SPSS with database warehouse connection](https://developer.ibm.com/tutorials/set-up-spss-modeler-on-watson-studio-with-db2-warehouse-connection/)
 
 # Steps
 
@@ -56,11 +56,11 @@ Insert Video
 ## 1. Setup the Notebook on your Watson Studio Project
 
 * Once, you have created your Waston Studio Project, click on `Add Notebook`>`From URL` and copy this URL- https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/master/code/Scrape_Startup_Insights.ipynb
-* Ensure you have created and copied the Watson Natural Language Understanding Service as instructed in the [tutorial](https://github.com/smruthi33/Scrape_Data), and paste the service credentials in your notebook in the cell below `2.1 Add your service credentials from IBM Cloud for the Watson services` section.
+* Ensure you have created and copied the Watson Natural Language Understanding Service as instructed in the [Scrape data from the web using Python and AI](https://developer.ibm.com/tutorials/scrape-data-from-the-web-using-watson-studio/), and paste the service credentials in your notebook in the cell below `2.1 Add your service credentials from IBM Cloud for the Watson services` section.
 
 ![](doc/source/images/NLU_credentials_notebook.png)
 
-* Ensure you have created and connected your DB2 Warehouse instance to the current Watson Studio Project as instructed in the [tutorial](https://github.com/smruthi33/-Set-up-SPSS-Modeler-on-Watson-Studio-with-DB2-Warehouse-connection.), and insert the credentials in the section `2.2 Add your service credentials for DB2`. Ensure the credentials is saved as `credentials_1`.
+* Ensure you have created and connected your DB2 Warehouse instance to the current Watson Studio Project as instructed in the [Predictive analytics using SPSS with database warehouse connection](https://developer.ibm.com/tutorials/set-up-spss-modeler-on-watson-studio-with-db2-warehouse-connection/), and insert the credentials in the section `2.2 Add your service credentials for DB2`. Ensure the credentials is saved as `credentials_1`.
 
 ![](doc/source/images/DB2_Warehouse_Credentials.png)
 
@@ -81,7 +81,7 @@ Insert Video
 ![](/doc/source/images/upload_modeller_file.png)
 
 * Double Click on the `Data Asset` node and click on the `Change Data Asset` button.
-* Move to `Connection` tab and select the `DB2 Warehouse` and select the correct `Schema` (usually starting with DASH) and the created table- `DATA_FOR_SPSS`.
+* Move to `Connection` tab and select the `DB2 Warehouse` and select the correct `Schema` (usually starting with DASHXXXX) and the created table- `DATA_FOR_SPSS`.
 
 ![](/doc/source/images/add_DB2_Data_Asset.png)
 
@@ -89,7 +89,7 @@ Insert Video
 
 * Before saving the changes for the node, make sure the value for `If the datset already exists`- `Append Output to Dataset`.
 
-
+* Run the Modeler Flow. The data would now be saved back to your DB2 Warehouse instance.
 
 ## 3. Setup the Embedded Dashboard on your Watson Studio Project 
 
@@ -109,6 +109,7 @@ Insert Video
 # Sample output
 
 This Code Pattern provides a solution-
+
 * That extracts live unstructured data about Startups
 * The impact Startups create in the industry with the help of Watson Natural Language Understanding and converted to a structured data.
 * The data is then fed into IBM SPSS Predictive Analytics to get meaningful insights and ratings.
@@ -130,6 +131,7 @@ After completing the setup, you will see the dashboard with 4 interactive widget
 
 # Troubleshooting
 
+See [Troubleshooting.md](Troubleshooting.md)
 
 ## License
 
