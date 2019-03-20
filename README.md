@@ -64,13 +64,7 @@ Insert Video
 
 ![](doc/source/images/DB2_Warehouse_Credentials.png)
 
-* Open your DB2 Warehouse instance and save `DASHXXXX.Table_Name` from the Cognos Table-
-
-![](/doc/source/images/Schema_Name.png)
-
-```
-Note: Save this name as it will be needed for later reference.
-```
+* In your `credentials_1` variable note down the `username` field, like DASHXXXX. This will be later used in various instances in this pattern.
 
 * In the notebook go to the last section `Store and Add table in DB2 Warehouse`, and replace DASHXXXX with the your Schema name-
 
@@ -115,7 +109,7 @@ Note: Save this name as it will be needed for later reference.
  
   ![](/doc/source/images/json_change.jpg)
  
- 2. Search for the term DATA_FOR_COGNOS(table name) and replace any occurrences of it with your db2 Warehouse table name `COGNOS_Table_Name_XXXX`
+ 2. If you have changed the Table name from `DATA_FROM_COGNOS`- search for the term DATA_FOR_COGNOS(table name) and replace any occurrences of it with your db2 Warehouse table name.
 
   ![](/doc/source/images/json_change_1.jpg)
 
