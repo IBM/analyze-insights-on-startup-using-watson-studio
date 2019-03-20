@@ -47,9 +47,3 @@ Before replacing the name, be sure to get the Schema name of your DB2 Warehouse 
 You can find your Schema name in your DB2 Warehouse instance when you open the table like `DASHXXXX.Table_Name`-
 
 ![](/doc/source/images/Schema_Name.png)
-
-3. If you face a missing DataSet error in Cognos-
-
-![](/doc/source/images/Cognos_error.jpg)
-
-Click on the `Re-link` button.
