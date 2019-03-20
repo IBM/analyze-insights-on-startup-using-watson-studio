@@ -80,16 +80,21 @@ Insert Video
 
 ![](/doc/source/images/upload_modeller_file.png)
 
-* Double Click on the `Data Asset` node and click on the `Change Data Asset` button.
+* Once, the modeler is opened. Double Click on the `Data Asset` node and click on the `Change Data Asset` button.
+
+![](/doc/source/images/data_import_setup.png)
+
 * Move to `Connection` tab and select the `DB2 Warehouse` and select the correct `Schema` (usually starting with DASHXXXX) and the created table- `DATA_FOR_SPSS`.
 
 ![](/doc/source/images/add_DB2_Data_Asset.png)
 
 * Similarly for the final node- `Data_Export` node, follow the same steps as above and select `DATA_FOR_COGNOS` table.
 
-* Before saving the changes for the node, make sure the value for `If the datset already exists`- `Append Output to Dataset`.
+![](/doc/source/images/data_export_setup.png)
 
-* Run the Modeler Flow. The data would now be saved back to your DB2 Warehouse instance.
+* Before saving the changes for the node, make sure the value for `If the datset already exists`- `Append Output to Dataset`, as shown in the image above.
+
+* Run the Modeler Flow, by clicking the play button. The data would now be saved back to your DB2 Warehouse instance.
 
 ## 3. Setup the Embedded Dashboard on your Watson Studio Project 
 
