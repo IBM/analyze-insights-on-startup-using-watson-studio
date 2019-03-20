@@ -131,7 +131,7 @@ After completing the setup, you will see the dashboard with 4 interactive widget
 
 # Troubleshooting
 
-See [Troubleshooting.md](Troubleshooting.md)
+See [Troubleshooting.MD](https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/master/TROUBLESHOOTING.md)
 
 ## License
 
