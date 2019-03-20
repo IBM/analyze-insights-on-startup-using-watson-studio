@@ -106,6 +106,17 @@ Insert Video
 
 ![](doc/source/images/new_dashboard.png)
 
+* Open your DB2 Warehouse instance and save `DASHXXXX.Table_Name` from the Cognos Table-
+
+![](/doc/source/images/Schema_Name.png)
+
+* Download the [file](https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/master/code/Starup_Analytics_Dashboard.json), and open it in any Text Editor.
+* Search for the term DASH and replace any occurence with your `DASHXXXX.Table_Name`.
+
+![](/doc/source/images/json_change.jpg)
+
+![](/doc/source/images/json_change_1.jpg)
+
 * Select `From file` option to upload the dashboard file(`./code/Starup_Analytics_Dashboard.json`) and select the dashboard service and then click on save.
 
 ![](doc/source/images/export_json_file.png)
