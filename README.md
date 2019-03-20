@@ -64,6 +64,18 @@ Insert Video
 
 ![](doc/source/images/DB2_Warehouse_Credentials.png)
 
+* Open your DB2 Warehouse instance and save `DASHXXXX.Table_Name` from the Cognos Table-
+
+![](/doc/source/images/Schema_Name.png)
+
+```
+Note: Save this name as it will be needed for later reference.
+```
+
+* In the notebook go to the last section `Store and Add table in DB2 Warehouse`, and replace DASHXXXX with the your Schema name-
+
+![](/doc/source/images/notebook_config.png)
+
 * Run the notebook. 
 
 ```Note: Since Data is being Scraped from the Web. Certain cells in the notebook will take some time to execute.```
@@ -105,10 +117,6 @@ Insert Video
 *  Click on New Dashboard under Dashboard asset to create a dashboard. See screenshot for details.
 
 ![](doc/source/images/new_dashboard.png)
-
-* Open your DB2 Warehouse instance and save `DASHXXXX.Table_Name` from the Cognos Table-
-
-![](/doc/source/images/Schema_Name.png)
 
 * Download the [file](https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/master/code/Starup_Analytics_Dashboard.json), and open it in any Text Editor.
 * Search for the term DASH and replace any occurence with your `DASHXXXX.Table_Name`.
