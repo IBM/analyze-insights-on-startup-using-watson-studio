@@ -139,6 +139,7 @@ If you don't have the `Cognos Dashboard Embedded Service` instance-
 
 ![](/doc/source/images/Cognos_error.jpg)
 
+* Next, Click on `Connections`>`DB2 Warehouse`>`Your_Schema`>`DATA_FOR_COGNOS`. This will load the Interactive Dashboard.
 
 # Sample output
 
