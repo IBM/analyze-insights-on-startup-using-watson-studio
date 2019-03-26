@@ -43,7 +43,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 <!--Optionally, update this section when the video is created-->
 # Watch the Video
 
-Insert Video
+[![](https://img.youtube.com/vi/AqX9D2I9nJw/0.jpg)](https://www.youtube.com/watch?v=AqX9D2I9nJw)
 
 # Prerequisites
 * [Scrape data from the web using Python and AI](https://developer.ibm.com/tutorials/scrape-data-from-the-web-using-watson-studio/)
