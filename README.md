@@ -48,6 +48,9 @@ Insert Video
 # Prerequisites
 * [Scrape data from the web using Python and AI](https://developer.ibm.com/tutorials/scrape-data-from-the-web-using-watson-studio/)
 * [Predictive analytics using SPSS with database warehouse connection](https://developer.ibm.com/tutorials/set-up-spss-modeler-on-watson-studio-with-db2-warehouse-connection/)
+* In the file- [company_list](company_list.json). Fill up information about the companies by replacing in the same format as the given template-
+
+![](doc/source/images/company_list_template.png)
 
 # Steps
 
@@ -67,7 +70,8 @@ Insert Video
 ![](doc/source/images/DB2_Warehouse_Credentials.png)
 
 * In your `credentials_1` variable note down the `username` field, like DASHXXXX. This will be later used in various instances in this pattern.
-
+* On the top right corner click on the `10/01` tab and click on `browse`. Download the file- [company_list](company_list.json) and upload this file from your file system.
+* In section 3 of the notebook, the cell under ` Insert Pandas Dataframe of the company_list.json file`. Ensure the dataframe is saved as `df_data_1`.
 * In the notebook go to the last section `Store and Add table in DB2 Warehouse`, and replace DASHXXXX with the your Schema name-
 
 ![](/doc/source/images/notebook_config.png)
