@@ -2,13 +2,13 @@
   "companies": [
     {
       "Company_Name_1": [
-        "Company_Desc_1",
+        "Company_Description_1",
         "Company_URL_1"
       ]
     },
     {
       "Company_Name_2": [
-        "Company_Desc_2",
+        "Company_Description_2",
         "Company_URL_2"
       ]
     },
