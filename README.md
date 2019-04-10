@@ -1,4 +1,6 @@
-# Scrape, Analyze and Visualize insights on Startups using Watson Studio
+# Scrape, Analyze and Visualize insights on Raw Data From the Web using Watson Studio
+
+The World Wide Web or the "Web" is the universe of network-accessible information. All this information present in a raw format on the Web. What if you want a way to ingest raw information on the web for any given topic and provide insights and visualiations for the same. This code pattern does, just that taking an example of performing analytics on Startups.
 
 Being in the age of start-ups. There is a rapid increase in a number of companies providing skilled services. We can scrape information about such companies and evaluate their success stories based on the number of articles or live use cases appeared in news portals.
 
@@ -24,7 +26,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 * Use Watson Natural Language Understanding to extract metadata from Python Notebook.
 * Generate a csv and Convert to a Table in DB2 Warehouse.
 * Load and analyze data in SPSS Modeler.
-* Load and Visualize data in Cognos Dashboard.
+* Load and Visualize data in the Embedded Dashboard.
 
 
 <!--add an image in this path-->
