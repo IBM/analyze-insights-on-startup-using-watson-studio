@@ -67,7 +67,9 @@ This JSON file contains a list of companies you want to analyze. The format is s
   ]
 }
 ```
-
+```
+Note: Pls do not enter more than 10 companies in the json file. 
+```
 ## Steps
 
 1. [Setup the Notebook on your Watson Studio Project](#1-setup-the-notebook-on-your-watson-studio-project)
@@ -140,9 +142,13 @@ https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/mast
 
   ![data_export_setup](/doc/source/images/data_export_setup.png)
 
-* Before saving the changes for the node, make sure the value for `If the datset already exists` is set to `Append Output to Dataset`, as shown in the image above.
+* Before saving the changes for the node, make sure the value for `If the datset already exists` is set to `Replace the data set`, as shown in the image above.
 
 * Run the Modeler Flow, by clicking the play button. The data would now be saved back to your Db2 Warehouse instance.
+
+```
+Note: At this stage you may receive an error of DB2Exception CLI0109E String data right truncation SQLSTATE 22001. This may due to unusually long URLs. However, you can treat it as a Warning and go ahead with the next steps.
+```
 
 ### 3. Setup the Embedded Dashboard on your Watson Studio Project
 
