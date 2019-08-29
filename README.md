@@ -152,7 +152,7 @@ Note: At this stage you may receive an error of DB2Exception CLI0109E String dat
 
 ### 3. Setup the Embedded Dashboard on your Watson Studio Project
 
-* Download the [Starup_Analytics_Dashboard.json](https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/master/code/Starup_Analytics_Dashboard.json) config file and open it in any editor.
+* Download the [Starup_Analytics_Dashboard.json](https://github.com/IBM/analyze-insights-on-startup-using-watson-studio/blob/master/code/Starup.json) config file and open it in any editor.
 
   * Search for the term `DASH_SCHEMA_NAME` and replace any occurrences of it with your Db2 Warehouse schema name.
 
